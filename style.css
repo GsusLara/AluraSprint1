@@ -1,79 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Roboto&display=swap");
 
-.principal{
-    background-color: #F3F5FC;
-    height: 100vh;
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
+.principal {
+  background-color: #f3f5fc;
+  height: 100vh;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
 }
-.entrada{
-    float:left;
-    height: 100vh;
-    width: 60%;
-    
+.entrada {
+  float: left;
+  height: 100vh;
+  width: 60%;
 }
-nav{
-    height: 15%;
-    width: 100%;
-    display: flex;
-    align-items: center;
+nav {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
-#logo{
-margin-left: 15%;
+#logo {
+  margin-left: 15%;
 }
-.contenidoEntrada{
-    height: 65%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contenidoEntrada {
+  height: 65%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.contenido{
-    height: 80%;
-    width: 50%;
-    font-size: 1.5rem;
-    color:#0A3871;
+.contenido {
+  height: 80%;
+  width: 50%;
+  font-size: 1.5rem;
+  color: #0a3871;
 }
-footer{
-    width: 100%;
-    height: 20%;
+footer {
+  width: 100%;
+  height: 20%;
 }
-.contenidoFooter{
-    margin-left: 25%;
+.contenidoFooter {
+  margin-left: 25%;
 }
-#nota{
-    margin: 2%;
-    color: #495057;
-    font-size: 1rem;
+#nota {
+  color: #9c9d9d;
+  font-weight: bolder;
+  font-size: 0.9rem;
 }
-.btnopciones{
-    width: 40%;
-    height: 4rem;
-    border-radius: 25px;
-    color: #ffffff;
-    font-size: 1rem;
-    border: 1px solid #0A3871;
+.btnopciones {
+  margin-top: 10px;
+  width: 40%;
+  height: 4rem;
+  border-radius: 25px;
+  color: #ffffff;
+  font-size: 1rem;
+  border: 1px solid #0a3871;
 }
 
-#bt1{
- background-color: #0A3871;
- 
+#bt1 {
+  background-color: #0a3871;
 }
-#bt2{
- background-color: #D8DFE8;
- margin-left: 10%;
+#bt2 {
+  background-color: #d8dfe8;
+  margin-left: 10%;
 }
-.salida{
-    float: right;
-    height: 100vh;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.salida {
+  float: right;
+  height: 100vh;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.contenidoSalida{
-    background: #ffffff;
-    height: 90vh;
-    width: 25vw;
-    border-radius: 25px;
+.contenidoSalida {
+  background: #ffffff;
+  height: 90vh;
+  width: 25vw;
+  border-radius: 25px;
+  text-align: center;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+#ilustracion {
+  margin-top: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#sinMensaje {
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
