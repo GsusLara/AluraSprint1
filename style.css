@@ -29,8 +29,19 @@ nav {
 .contenido {
   height: 80%;
   width: 50%;
+  
+}
+#codeSpace{
   font-size: 1.5rem;
   color: #0a3871;
+  border: none;
+  background: transparent;
+}
+#codeSpace:focus{
+  outline: none;
+}
+#codeSpace:active{
+  outline: none;
 }
 footer {
   width: 100%;
@@ -69,17 +80,16 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.contenidoSalida {
+#contenidoSalida {
   background: #ffffff;
   height: 90vh;
   width: 25vw;
   border-radius: 25px;
   text-align: center;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  word-wrap: break-word ;
 }
 #ilustracion {
+  width: 90%;
   margin-top: 40%;
   display: block;
   margin-left: auto;
@@ -91,4 +101,9 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: bold;
+}
+#dataCifrada{
+  font-size: 1.5rem;
+  color: #0a3871;
+  margin-top: 40%;
 }
