@@ -29,18 +29,17 @@ nav {
 .contenido {
   height: 80%;
   width: 50%;
-  
 }
-#codeSpace{
+#codeSpace {
   font-size: 1.5rem;
   color: #0a3871;
   border: none;
   background: transparent;
 }
-#codeSpace:focus{
+#codeSpace:focus {
   outline: none;
 }
-#codeSpace:active{
+#codeSpace:active {
   outline: none;
 }
 footer {
@@ -57,19 +56,26 @@ footer {
 }
 .btnopciones {
   margin-top: 10px;
-  width: 40%;
   height: 4rem;
+  width: 40%;
   border-radius: 25px;
-  color: #ffffff;
   font-size: 1rem;
   border: 1px solid #0a3871;
+}
+.btnopciones:hover {
+  box-shadow: 0 4px 16px #19569f71;
+}
+.btnopciones:active {
+  transform: scale(0.98);
 }
 
 #bt1 {
   background-color: #0a3871;
+  color: #ffffff;
 }
 #bt2 {
   background-color: #d8dfe8;
+  color: #0a3871;
   margin-left: 10%;
 }
 .salida {
@@ -82,28 +88,35 @@ footer {
 }
 #contenidoSalida {
   background: #ffffff;
-  height: 90vh;
-  width: 25vw;
+  height: 90%;
+  width: 60%;
   border-radius: 25px;
   text-align: center;
-  word-wrap: break-word ;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 #ilustracion {
   width: 90%;
-  margin-top: 40%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 #sinMensaje {
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 1.5rem;
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
   font-weight: bold;
 }
-#dataCifrada{
+#dataCifrada {
+  text-align: center;
   font-size: 1.5rem;
   color: #0a3871;
   margin-top: 40%;
+}
+
+#btnCopy {
+  color: #0a3871;
+  margin-bottom: 0;
+  margin-top: auto;
+  margin-bottom: 10%;
 }
