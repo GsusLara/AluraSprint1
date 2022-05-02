@@ -7,7 +7,7 @@
 }
 .entrada {
   float: left;
-  height: 100vh;
+  height: 100%;
   width: 60%;
 }
 nav {
@@ -113,10 +113,50 @@ footer {
   color: #0a3871;
   margin-top: 40%;
 }
-
 #btnCopy {
   color: #0a3871;
-  margin-bottom: 0;
   margin-top: auto;
   margin-bottom: 10%;
+}
+@media only screen and (max-width: 768px) {
+  .principal {
+    height: 100vh;
+    width: 100vw;
+  }
+  .entrada {
+    height: 70%;
+    width: 100%;
+  }
+  .salida {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #ilustracion {
+    display: none;
+  }
+  footer {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .contenidoFooter {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contenidoSalida {
+    width: 95%;
+  }
+  #dataCifrada {
+    margin-top: 0;
+  }
+  #btnCopy {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
 }
